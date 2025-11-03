@@ -1,4 +1,5 @@
-const API_URL = window.location.origin;
+const API_URL = "https://ssvt-media.onrender.com";
+
 
 // Upload new media
 async function uploadMedia() {
@@ -65,3 +66,4 @@ async function deleteMedia(id) {
 }
 
 fetchMedia();
+
